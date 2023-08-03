@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "juridical-bot"
+version = "0.1.0"
+description = ""
+authors = ["Михаил <zimnitskiymisha@gmail.com>"]
+readme = "README.md"
+packages = [{include = "juridical_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyrogram = "^2.0.106"
+aiogram = "3.0.0b9"
+tgcrypto = "^1.2.5"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
