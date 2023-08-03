@@ -2,7 +2,7 @@
 name = "juridical-bot"
 version = "0.1.0"
 description = ""
-authors = ["Михаил <zimnitskiymisha@gmail.com>"]
+authors = ["bubled <zimnitskiymisha@gmail.com>"]
 readme = "README.md"
 packages = [{include = "juridical_bot"}]
 
